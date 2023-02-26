@@ -1,12 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
 
 html{
-    font-family: 'Gloock', serif;
-    background: rgb(253, 254, 246);
+    font-family: 'Times New Roman',  sans-serif;
+    background: rgb(199, 196, 245);
 }
+
+#bob {width:30%;
+    height:90%;
+      border-radius: 10px;
+  }
 
 .container {
     display: flex; /* or inline-flex */
     justify-content: center;
-   
+
   }
+
+  .container{
+        display:flex;
+        gap: 20px;
+        /* flex: 1; */
+    }
+
+  .container div{
+        padding: 20px;
+    }
+
+    .sub_box_even{
+        background-color: rgb(162, 157, 245);
+        border-radius: 10px;
+          flex-shrink: 3;
+        /* flex: 1; */
+    }
+
+    #sub_box1{
+        background-color: rgb(222, 222, 255);
+        text-align: right;
+        flex-shrink: 3;
+        height:10em;
+    }
+
+    #sub_box2{
+        background-color: rgb(255, 216, 216);
+          text-align: auto;
+          flex-shrink: 100;
+    }
+
+    #sub_box3{
+        background-color: rgb(216, 255, 234);
+        width: 30%
+        flex-shrink: 1;
+    }
