@@ -13,41 +13,58 @@ html{
 .container {
     display: flex; /* or inline-flex */
     justify-content: center;
+    gap: 20px;
+    margin-top: 20px
+    padding: 20px;
 
   }
-
-  .container{
-        display:flex;
-        gap: 20px;
-        /* flex: 1; */
-    }
+.container2 {
+      display: flex; /* or inline-flex */
+      justify-content: space-evenly;
+      /* width: 100%; */
+      height: 70%;
+      border-radius: 10px;
+      padding: 20px;
+}
 
   .container div{
-        padding: 20px;
+    padding: 20px;
     }
 
     .sub_box_even{
         background-color: rgb(162, 157, 245);
         border-radius: 10px;
           flex-shrink: 3;
-        /* flex: 1; */
+          padding: 20px;
+        /* flex: 1; */ - what is this?
     }
 
     #sub_box1{
         background-color: rgb(222, 222, 255);
         text-align: right;
         flex-shrink: 3;
-        height:10em;
+        height:120em;
     }
 
     #sub_box2{
-        background-color: rgb(255, 216, 216);
+        background-color: rgb(162, 157, 245);
           text-align: auto;
           flex-shrink: 100;
+          height:15em;
+          font-size: 25px;
     }
 
     #sub_box3{
-        background-color: rgb(216, 255, 234);
+        background-color: rgb(162, 157, 245);
         width: 30%
         flex-shrink: 1;
+        height: 10em;
+        font-size: 17px;
     }
+
+  .sub_box_divide{
+        background-color: yellow;
+        border-radius: 10px;
+          flex-shrink: 3;
+          padding: 20px;
+  }
