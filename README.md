@@ -10,6 +10,5 @@ My personal site.
 
 - [flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - center content and create structure to the site
 - [google search bar](https://codepen.io/eqbrown/pen/XWBvvjE) - used the css properties for the pill design
-- Jennylihan.com. (2023). Available at: https://jennylihan.com/ [Accessed 10 Mar. 2023].
-- codepen.io (https://codepen.io/tag/image-button) - image button
-‌
+- [codepen.io] (https://codepen.io/tag/image-button) - image button
+‌- [spotify] (https://open.spotify.com/embed/playlist/1bznxhevcLN4pLjl5DPj02?utm_source=generator&theme=0) - I used the spotify code that it gave me in order to embed a playlist into my website.
